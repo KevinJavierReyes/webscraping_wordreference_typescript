@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6", // Para que version de ecmascript se compilara.
+        "module": "commonjs", // Se encarga de resolver los imports y exports.
+        "removeComments": true, // Eliminar comentarios en la compilacion.
+        "outDir": "./dist", // Directorio de salida despues de compilar.
+        "noImplicitAny": true, // Que no asigne de manera implicita Any a las variables que no tienen un tipo definido.
+        "sourceMap": true, // Se muestren errores mas especificos.
+        "watch": true, // Escuchar cualquier cambio y compilar automaticamente.
+        "rootDir": "src/", // Directorio de donde se obtendra la estructura del proyecto.
+        "experimentalDecorators": true, // Permite la compilacion de decoradores.
+    },
+    "include": [ // Directorio de donde se econtraran todos los archivos TypeScript.   
+        "src/**/*.ts", // Buscar en el directorio "src" y sub directorios de este mismo. 
+    ],
+    "exclude": [ // Directorios que seran excluidos
+        "node_modules/" // Escluir el directorio de librerias.
+    ]
+}

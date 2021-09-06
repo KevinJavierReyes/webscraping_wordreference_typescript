@@ -1,0 +1,16 @@
+## Install TypeScript
+
+```shell
+npm install typescript -g
+npm install cheerio -g
+npm install axio -g
+npm i -D @types/axios @types/cheerio
+```
+
+```shell
+tsc
+```
+
+```shell
+node dist/main.js
+```
